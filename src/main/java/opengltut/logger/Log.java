@@ -1,5 +1,4 @@
-package logger;
-
+package opengltut.logger;
 import java.lang.management.ManagementFactory;
 
 public class Log {

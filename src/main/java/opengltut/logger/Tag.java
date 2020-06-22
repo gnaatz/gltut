@@ -1,4 +1,4 @@
-package logger;
+package opengltut.logger;
 
 public class Tag {
     private String tag;

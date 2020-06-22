@@ -1,6 +1,8 @@
-import logger.Logger;
-import logger.LoggerFactory;
-import logger.Tag;
+package opengltut;
+
+import opengltut.logger.Logger;
+import opengltut.logger.LoggerFactory;
+import opengltut.logger.Tag;
 import org.lwjgl.opengl.GL;
 import org.lwjgl.opengl.GLUtil;
 import org.lwjgl.system.Callback;

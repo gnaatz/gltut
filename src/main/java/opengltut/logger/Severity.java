@@ -1,4 +1,4 @@
-package logger;
+package opengltut.logger;
 
 public enum Severity {
     WTF("\u001B[36m"),

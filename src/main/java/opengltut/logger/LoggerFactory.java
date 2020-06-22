@@ -1,4 +1,4 @@
-package logger;
+package opengltut.logger;
 
 import java.util.HashMap;
 import java.util.Map;
