@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'dhbwka'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+project.ext.lwjglVersion = "3.2.1"
+project.ext.lwjglNatives = "natives-windows"
+project.ext.jomlVersion = "1.9.19"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation "org.lwjgl:lwjgl:3.2.1"
+    implementation "org.lwjgl:lwjgl-glfw:3.2.1"
+    implementation "org.lwjgl:lwjgl-opengl:3.2.1"
+    runtimeOnly "org.lwjgl:lwjgl:3.2.1:natives-windows"
+    runtimeOnly "org.lwjgl:lwjgl-glfw:3.2.1:natives-windows"
+    runtimeOnly "org.lwjgl:lwjgl-opengl:3.2.1:natives-windows"
+}
